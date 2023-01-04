@@ -16,7 +16,8 @@ class BottomCard extends StatelessWidget {
           children: [
             Positioned(
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
                 child: SizedBox(
                   height: 150,
                   child: Card(
@@ -24,7 +25,8 @@ class BottomCard extends StatelessWidget {
                     child: Container(
                       color: Colors.redAccent.shade100,
                       child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 20),
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 10, vertical: 20),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.end,
                           crossAxisAlignment: CrossAxisAlignment.start,

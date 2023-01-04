@@ -16,7 +16,7 @@ class TopCard extends StatelessWidget {
           child: Container(
             color: Colors.redAccent.shade100,
             child: Padding(
-              padding: const EdgeInsets.only(left: 20),
+              padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.start,
