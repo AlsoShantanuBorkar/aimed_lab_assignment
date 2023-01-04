@@ -40,11 +40,11 @@ class BottomCard extends StatelessWidget {
                 ),
               ),
             ),
-            const Positioned(
+            Positioned(
               top: 0,
               child: GreyCard(
                 height: 50,
-                width: 350,
+                width: MediaQuery.of(context).size.width / 4,
               ),
             ),
           ],
